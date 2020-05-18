@@ -1,38 +1,161 @@
-.App {
+.profiles{
+  margin: 30px 0px;
+  font-size: 20px;
+  color: silver;
+}
+
+.abilan{
+  display: flex;
+  margin: 20px 0px 30px 0px;
+}
+.btn{
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#inbox #f{
+  margin: 15px 25px 0px 0px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#inbox h4{
+  margin: 15px 0px 0px 35px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.side{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.side span{
+  font-size: 19px;
+}
+
+.online{
+  display: flex;
+  margin: 20px 0px;
+}
+
+.labels{
+  margin: 10px 0px;
+}
+
+.labels button{
+  margin: 10px 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.thin{
+  display: block;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #9400D3;
 }
 
-.App-link {
-  color: #61dafb;
+.fnts{
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.fnts .side{
+  display: flex; 
+  
+}
+.side span{
+  margin: 5px 30px 0px 10px;
+
+}
+
+
+.in1{
+  padding: 0px 50px;
+}
+
+.fashion span{
+  display: flex;
+  float: right;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+
+.in2 span{
+  margin: 5px 0px 0px 0px;
+  padding: 6px 8px;
+}
+
+#inbox span{
+  display: flex;
+  float: right;
+  
+}
+.thumbs{
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0px 0px 10px 0px;
+  padding: 20px 20px;
+}
+
+
+.thumb{
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0px 0px 20px 0px;
+  padding: 5px 20px 4px 10px;
+}
+
+
+
+.hed{
+  display: flex;
+  margin: 0px 0px 20px 0px;
+}
+
+
+
+.hed1{
+  display: flex;
+  margin: 0px 0px 50px 0px;
+}
+
+
+
+.hed span{
+  padding: 5px 10px;
+  border-radius: 35%;
+}
+
+
+
+.tail{
+  display: flex;
+}
+
+
+.tail span{
+  margin: 20px 10px 0px 0px;
+}
+
+
+.imag{
+  margin: 0px 0px 50px 0px;
+  
+  
+}
+.imag img{
+  margin: 0px 10px;
+  border-radius: 10px;
+  
+}
+
+
+.para p{
+  margin: 0px 0px 0px 0px;
+}
+.para{
+  margin: 50px 0px 30px 0px;
 }
